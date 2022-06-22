@@ -365,10 +365,50 @@
                         </li>
                     </ul>
                 </div>
+
+                <form class="submit">
+                    <label class="followus-title">
+                        Подпишитесь на рассылку
+                        <input type="email" name="email" placeholder="E-mail">
+                    </label>
+                
+                    <button class="button submit" type="submit">Подписаться
+                        <svg class="submit-icon">
+                            <use href="./img/icon-submit.svg" width="24" height="24"></use>
+                        </svg>
+                    </button>
+                </form>
              </div>
 
-             <div class="backdrop is-hidden" data-modal>
+            
+
+             <!-- <div class="backdrop is-hidden" data-modal> -->
+            <div class="backdrop" data-modal>
                 <div class="modal">
+                    <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                    <form class="modal-form">
+                    <label for="user-name"class="modal-label">Имя</label>
+                    <input type="text"
+                        name="user-name"
+                        id="user-name"
+                        class="modal-input">
+                    <label for="user-tel" class="modal-label">Телефон</label>
+                    <input
+                        type="tel"
+                        name="user-tel"
+                        id="user-tel"
+                        class="modal-input">
+                    <label for="user-email" class="modal-label">Почта</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="user-email"
+                        class="modal-input">
+                    <label>Комментарий
+                    <textarea name="comment" id="" rows="5" placeholder="Введите текст" required></textarea>
+                    </label>
+                    </form>
+
                     <button class="button-modal" data-modal-close>
                         <svg class="button-modal-close" width="11" height="11">
                             <use href="./img/button-modal-close.svg"></use>
