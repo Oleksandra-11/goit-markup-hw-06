@@ -46,7 +46,7 @@
                         id="modal-text"
                         cols="30"
                         rows="10"
-                        class="modal-text-area"
+                        class="modal-textarea"
                         placeholder="Комент"
                         ></textarea>
                     </div>
