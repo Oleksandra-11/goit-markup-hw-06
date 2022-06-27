@@ -806,6 +806,8 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    display: flex;
+    align-content: center;
 }
 
 .check-text a {
