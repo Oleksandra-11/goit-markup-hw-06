@@ -812,11 +812,16 @@ ul {
     border-color: var(--accent-color);
 }
 
+.modal-field.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .check-text {
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    /* display: flex; */
     align-content: center;
 }
 
