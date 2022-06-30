@@ -627,7 +627,7 @@ ul {
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .submit-input {
@@ -822,7 +822,9 @@ ul {
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    display: flex;
     align-content: center;
+    position: relative;
 }
 
 .check-text a {
@@ -830,7 +832,6 @@ ul {
 }
 
 .check-text span {
-    content: '';
     width: 16px;
     height: 15px;
     border: 1px solid rgba(34, 34, 34, 0.2);
